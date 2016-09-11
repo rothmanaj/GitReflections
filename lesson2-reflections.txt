@@ -11,4 +11,19 @@ How is the staging area different from the working directory and the repository?
 	the working directory that will form part of the repository and as such defines what will
 	be part of the repository.
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+	By adding individaul "logical changes" using the git add filename[s] and then commiting these one at a
+	time.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	
+	Brachs would be helpful when creating significant changes that need to be worked on in parrallel or where a
+	split in devlopment objectived occurs e.g. different version, experiment with new feature etc.
+
+How do the diagrams help you visualize the branch structure?
+
+	They help differentiate between branches and the commits within branches - thus also helping to ensure that
+	you do not create unreachable commits.
+
 
