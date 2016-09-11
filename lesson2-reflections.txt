@@ -5,4 +5,10 @@ What happens when you initialize a repository? Why do you need to do it?
 	A .git directory is created for storing a hsitory of commits. This is a required
 	step before you are able to commit anything to the repository.
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	The staging area almost lies between the two. It contains only those files that are part of 
+	the working directory that will form part of the repository and as such defines what will
+	be part of the repository.
+
 
