@@ -1,1 +1,38 @@
 This is where I will record my reflections of Lesson 3 of Udacit's - How to Use Git and GitHub Course
+
+When would you want to use a remote repository rather than keeping all your work local?
+
+	The major benefit of a remote repository is the ability to share and collaborate with others.
+	Other benefits are the ability to work on the same project from various machines and
+	having a backup of your project.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date 
+with your remote repository?
+
+	You might have made changes locally that supercede what is on the remote repository or may
+	be working on your own code ideas and not want it updates with changes that other people
+	may have made to the codebase on GitHub.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+	Branches happen within a repository and represent a names split in the code base where each commit
+	refers to its parent along the branch. A clone is a copy of a repository on a local computer from
+	either the same computer or a GitHub repositort. On the other hand a fork is a copy made of a
+	GitHub repository performed on GitHub directly. A fork retains its link to the original repository.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	You are able to work off-line and still have access to what other people have done without merging.
+	i.e. you are able to run log origin/master to see what other commits have occured. You can also
+	run git diff origin/master master to see these changes.
+
+	It also means that merging from GitHub becomes no different to considering two seperate banches
+	after git fetch has been run.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	I think that it would be very difficult to collaborate without the benefit of Git and GitHub.
+	One would have to rely on some form of careful work split and manual management of versions.
+	It is hard to see what would really be easier (once you get over the Git/GitHub learning curve.
+
+
